@@ -1,2 +1,25 @@
-# Flight-Price-Prediction
-This project focuses on building a machine learning model to predict flight prices based on various features such as departure and arrival times, duration, airline, source, destination, and number of stops. The dataset used is sourced from Kaggle and includes real-world flight pricing data.
+# ✈️ Flight Price Prediction
+
+This project predicts airline ticket prices using supervised machine learning. The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction?resource=download) 
+
+## 🔍 Project Overview
+- **Goal:** Predict flight prices based on flight details
+- **Model:** Random Forest Regressor
+- **Dataset:** Real-world flight pricing data from Kaggle
+
+## 🧪 Key Steps
+- Data preprocessing (cleaning, encoding, feature engineering)
+- Train-test split
+- Hyperparameter tuning with `RandomizedSearchCV`
+- Model evaluation using R², MAE, MSE
+
+## 📈 Results
+- Achieved high R² score (~0.98)
+- Random Forest outperformed baseline models
+
+## 🛠️ Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+
+
